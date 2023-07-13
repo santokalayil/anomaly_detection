@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "anomaly-detection"
+version = "0.1.0"
+description = ""
+authors = ["Santo K Thomas"]
+readme = "README.md"
+packages = [{include = "anomaly_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
